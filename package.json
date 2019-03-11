@@ -1,5 +1,6 @@
 {
   "name": "github-moststars",
+  "homepage": "https://jor-dan.github.io/MostStars/",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
@@ -7,6 +8,8 @@
     "dev": "webpack-dev-server --mode development",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint --ignore-path .gitignore . --fix",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --mode development --open"
   },
   "dependencies": {
@@ -29,6 +32,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
+    "gh-pages": "^2.0.1",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
