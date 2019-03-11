@@ -3,6 +3,14 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
 .languages {
   display: flex;
   flex-wrap: wrap;
@@ -11,9 +19,39 @@ body {
   margin-right: 100px;
 
   li {
-    list-style-type: none;
     margin: 10px;
     font-weight: bold;
     cursor: pointer;
+  }
+}
+
+.repositories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .repository {
+    margin: 30px;
+    text-align: center;
+
+    .rank {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px;
+    }
+
+    .avatar {
+      width: 150px;
+    }
+
+    .info {
+      .name {
+        font-weight: bold;
+      }
+
+      .star {
+        font-weight: bold;
+      }
+    }
   }
 }
