@@ -12,7 +12,7 @@ class App extends React.Component {
     repositories: [],
   }
 
-  languages = ['All', 'C', 'JavaScript', 'Python', 'Swift'];
+  languages = ['All', 'C', 'Java', 'JavaScript', 'Python', 'Ruby', 'Swift'];
 
   componentWillMount() {
     const { language } = this.state;
