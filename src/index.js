@@ -19,20 +19,20 @@ class App extends React.Component {
     this.setLanguage(language);
   }
 
-  setLanguage = language => getRepos(language)
-    .then(repositories => this.setState({ language, repositories }));
+  setLanguage = (language) => getRepos(language)
+    .then((repositories) => this.setState({ language, repositories }));
 
   render() {
     const { language, repositories } = this.state;
     return (
-      <React.Fragment>
+      <>
         <LanguagePicker
           currentLanguage={language}
           languages={this.languages}
           setLanguage={this.setLanguage}
         />
         <Repositories repositories={repositories} />
-      </React.Fragment>
+      </>
     );
   }
 }

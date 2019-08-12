@@ -5,7 +5,7 @@ const LanguagePicker = (props) => {
   const { currentLanguage, languages, setLanguage } = props;
   return (
     <ul className="languages">
-      {languages.map(language => (
+      {languages.map((language) => (
         <li
           key={language}
           style={language === currentLanguage ? { color: 'gray' } : {}}

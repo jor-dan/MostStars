@@ -1,7 +1,7 @@
 {
   "name": "github-moststars",
   "homepage": "https://jor-dan.github.io/MostStars/",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -13,33 +13,32 @@
     "start": "webpack-dev-server --mode development --open"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/plugin-proposal-class-properties": "^7.5.0",
-    "@babel/preset-env": "^7.5.4",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
-    "css-loader": "^3.0.0",
-    "eslint": "^6.0.1",
-    "eslint-config-airbnb": "^17.1.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
     "eslint-loader": "^2.2.1",
-    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.2",
-    "gh-pages": "^2.0.1",
+    "eslint-plugin-react": "^7.14.3",
+    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2"
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
   },
   "repository": {
     "type": "git",
