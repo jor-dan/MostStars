@@ -14,7 +14,7 @@ class App extends React.Component {
 
   languages = ['All', 'C', 'C++', 'Java', 'JavaScript', 'Python', 'Ruby', 'Swift', 'TypeScript'];
 
-  componentWillMount() {
+  componentDidMount() {
     const { language } = this.state;
     this.setLanguage(language);
   }
